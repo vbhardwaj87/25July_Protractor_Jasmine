@@ -1,0 +1,29 @@
+{
+  "name": "25july",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rimraf temp/ && rimraf download/",
+    "pretest": "npm run clean && npm run tsc",
+    "test": "protractor conf.js",
+    "test-type": "protractor conf.ts",
+    "webdriver-update": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "devDependencies": {
+    "protractor": "7.0.0",
+    "@types/jasmine": "^3.3.12",
+    "@types/node": "^12.0.2",
+    "jasmine": "^3.4.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-html-reporter-2": "^1.0.4",
+    "protractor-beautiful-reporter": "1.3.6",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5",
+    "yargs": "^13.2.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
