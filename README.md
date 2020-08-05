@@ -5,8 +5,12 @@
 This is a automation framework designed using protractor and Jasmine
  
  Use npm install
- npm run build
- npm test
+ 
+ 
+ 2. npm run build
+ 
+ 
+ 3. npm test
 
 
 
